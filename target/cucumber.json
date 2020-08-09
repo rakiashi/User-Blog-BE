@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-09T21:54:06.819Z",
+        "start_timestamp": "2020-08-09T22:06:26.817Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache\r\n\tat org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.\u003cclinit\u003e(NumberNumberMetaMethod.java:33)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:111)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:86)\r\n\tat groovy.lang.GroovySystem.\u003cclinit\u003e(GroovySystem.java:36)\r\n\tat org.codehaus.groovy.runtime.InvokerHelper.\u003cclinit\u003e(InvokerHelper.java:86)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)\r\n\tat io.restassured.internal.ResponseParserRegistrar.\u003cinit\u003e(ResponseParserRegistrar.groovy)\r\n\tat io.restassured.RestAssured.\u003cclinit\u003e(RestAssured.java:347)\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "duration": 185128800,
+              "duration": 190135400,
               "status": "failed"
             },
             "match": {
@@ -25,7 +25,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3001800,
+              "duration": 4001200,
               "status": "skipped"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2001900,
+              "duration": 9006700,
               "status": "skipped"
             },
             "line": 8,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 3001300,
+              "duration": 1001000,
               "status": "skipped"
             },
             "line": 9,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 4002800,
+              "duration": 4002900,
               "status": "skipped"
             },
             "line": 10,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 1001500,
+              "duration": 999900,
               "status": "skipped"
             },
             "line": 15,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 2001400,
+              "duration": 1000400,
               "status": "skipped"
             },
             "line": 17,
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 1001000,
+              "duration": 1000400,
               "status": "skipped"
             },
             "line": 18,
@@ -159,12 +159,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T21:54:07.217Z",
+        "start_timestamp": "2020-08-09T22:06:27.228Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "duration": 1001500,
               "status": "failed"
             },
             "match": {
@@ -181,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 999900,
+              "duration": 2003100,
               "status": "skipped"
             },
             "line": 22,
@@ -229,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 1000400,
+              "duration": 999900,
               "status": "skipped"
             },
             "line": 27,
@@ -241,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 1001500,
+              "duration": 1000400,
               "status": "skipped"
             },
             "line": 28,
@@ -285,12 +284,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T21:54:07.247Z",
+        "start_timestamp": "2020-08-09T22:06:27.270Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "duration": 1001500,
               "status": "failed"
             },
             "match": {
@@ -307,7 +305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 999300,
+              "duration": 2001400,
               "status": "skipped"
             },
             "line": 36,
@@ -351,7 +349,7 @@
           },
           {
             "result": {
-              "duration": 1000400,
+              "duration": 1000500,
               "status": "skipped"
             },
             "line": 41,
@@ -369,12 +367,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T21:54:07.284Z",
+        "start_timestamp": "2020-08-09T22:06:27.291Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "duration": 1001000,
               "status": "failed"
             },
             "match": {
@@ -439,6 +436,7 @@
           },
           {
             "result": {
+              "duration": 1001000,
               "status": "skipped"
             },
             "line": 50,

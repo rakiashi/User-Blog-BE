@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.StartEngineTest" time="2.243" tests="4" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.StartEngineTest" time="1.791" tests="4" errors="4" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\G50\AppData\Local\Temp\surefire643319790626764342\surefirebooter5627847679176501511.jar C:\Users\G50\AppData\Local\Temp\surefire643319790626764342 2020-08-10T03-24-03_887-jvmRun1 surefire11442012785385856557tmp surefire_02162012948133138662tmp"/>
+    <property name="sun.java.command" value="C:\Users\G50\AppData\Local\Temp\surefire16298672548278610445\surefirebooter10597740841554318049.jar C:\Users\G50\AppData\Local\Temp\surefire16298672548278610445 2020-08-10T03-36-23_614-jvmRun1 surefire1522159267087087339tmp surefire_04149296043019074110tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\G50\IdeaProjects\sampleProject\User-Blog-BE\target\test-classes;C:\Users\G50\IdeaProjects\sampleProject\User-Blog-BE\target\classes;C:\Users\G50\.m2\repository\io\cucumber\cucumber-java\5.4.0\cucumber-java-5.4.0.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-core\5.4.0\cucumber-core-5.4.0.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-gherkin\5.4.0\cucumber-gherkin-5.4.0.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.4.0\cucumber-gherkin-vintage-5.4.0.jar;C:\Users\G50\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\G50\.m2\repository\io\cucumber\datatable\3.3.0\datatable-3.3.0.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-plugin\5.4.0\cucumber-plugin-5.4.0.jar;C:\Users\G50\.m2\repository\io\cucumber\docstring\5.4.0\docstring-5.4.0.jar;C:\Users\G50\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\G50\.m2\repository\io\cucumber\cucumber-junit\5.4.0\cucumber-junit-5.4.0.jar;C:\Users\G50\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\G50\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\G50\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\G50\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\G50\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\G50\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\G50\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\G50\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\G50\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\G50\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\G50\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\G50\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\G50\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\G50\.m2\repository\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;C:\Users\G50\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\G50\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\G50\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\G50\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\G50\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\G50\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\G50\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\G50\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\G50\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\G50\.m2\repository\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;C:\Users\G50\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\G50\.m2\repository\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;C:\Users\G50\.m2\repository\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;C:\Users\G50\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\G50\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\G50\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\G50\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\G50\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\G50\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\G50\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\G50\AppData\Local\Temp\surefire643319790626764342\surefirebooter5627847679176501511.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\G50\AppData\Local\Temp\surefire16298672548278610445\surefirebooter10597740841554318049.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -55,7 +55,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="Verifying email formats from each comments of user posts" classname="Verify Email formats from comments of each user posts" time="0.623">
+  <testcase name="Verifying email formats from each comments of user posts" classname="Verify Email formats from comments of each user posts" time="0.906">
     <error message="Could not initialize class org.codehaus.groovy.reflection.ReflectionCache" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
 </error>
     <system-out><![CDATA[
@@ -87,7 +87,7 @@ Scenario: Verifying email formats from each comments of user posts # src/resourc
   And The response should fetch all the posts from the user        # stepDefinitions.UsersPosts.theResponseShouldHaveBelowFields()
   Then I send GET request from each post to verify email formats   # stepDefinitions.UsersComments.iFetchCommentsFromEachPostToVerifyEmailFormats()
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2020 3:24:05 AM io.cucumber.junit.Cucumber <init>
+    <system-err><![CDATA[Aug 10, 2020 3:36:25 AM io.cucumber.junit.Cucumber <init>
 WARNING: By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning
@@ -148,7 +148,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.v
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]></system-err>
   </testcase>
-  <testcase name="Send PUT request and verify response" classname="Verify Email formats from comments of each user posts" time="0.187">
+  <testcase name="Send PUT request and verify response" classname="Verify Email formats from comments of each user posts" time="0.039">
     <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
 </error>
     <system-out><![CDATA[
@@ -162,7 +162,7 @@ Scenario: Send PUT request and verify response         # src/resources/features/
   And The response of posts values should be updated   # stepDefinitions.UsersPosts.theResponseOfPostsValuesShouldBeUpdated(java.util.Map<java.lang.String, java.lang.String>)
 ]]></system-out>
   </testcase>
-  <testcase name="Send POST request and verify response" classname="Verify Email formats from comments of each user posts" time="0.061">
+  <testcase name="Send POST request and verify response" classname="Verify Email formats from comments of each user posts" time="0.041">
     <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
 </error>
     <system-out><![CDATA[
@@ -175,7 +175,7 @@ Scenario: Send POST request and verify response    # src/resources/features/User
   Then The response status should be 404 NOT_FOUND # stepDefinitions.Users.theResponseStatusShouldBeUnAuthorized()
 ]]></system-out>
   </testcase>
-  <testcase name="Send PUT request and verify response as Internal Server Error" classname="Verify Email formats from comments of each user posts" time="0.024">
+  <testcase name="Send PUT request and verify response as Internal Server Error" classname="Verify Email formats from comments of each user posts" time="0.018">
     <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
 </error>
     <system-out><![CDATA[

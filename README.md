@@ -18,20 +18,20 @@ In order make this project up and running you need to have following configurati
 
 -SDK configuration under file browser for latest JDK installed in your machine -Once you are able to see java class files are loaded as expected then you are good to go for next step
 
-Usage
+**Usage**
 
-The Project is for Functional UI Automation testing , Before running this project read below steps for smooth execution
+The Project is for Backend API Automation testing using Rest Assured Library with BDD approach
+This Framework capable of future enhancement on UI automation along with API testing
 
--To Run in chrome or firefox browser , make sure you have updated in application.properties file under resources folder -To Run in headLess mode by default settings should be true -To Run on desired operating system update os property as Win or Mac respectively -To Run from terminal go to project path as ComputerApplication and run command as mvn clean install -To Run from runner class StartEngine under itRunner package use Run button
+**Running command**
+mvn clean compile test
 
-Reporting
+**Reporting**
 
-In this project i have used cucumber reports , which gives more info on each steps by taking screenshots : you can get in this path : \target\site\cucumber-pretty
+In this project I have used cucumber reports , which gives more info on each steps by taking screenshots : you can get in this path : \target\site\cucumber-pretty
 
-Test-outputs
+**Observations**
 
--Tested in Windows OS 10 -Tested in Mac OS X -Cross browser testing with Chrome,Firefox and Safari -Tested CT job by configuring in Jenkins (refer cucumber screenshot document)
+-PUT send request results in success response , where actual posts id is not updated
+-POST send request results in 404 error
 
-Observations
-
--Computer name can be created even with special characters -Duplicate computer names can be created -Sorting is not happening even thou i see there is an option in result table
