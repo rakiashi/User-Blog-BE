@@ -15,8 +15,7 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache\r\n\tat org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.\u003cclinit\u003e(NumberNumberMetaMethod.java:33)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:111)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:86)\r\n\tat groovy.lang.GroovySystem.\u003cclinit\u003e(GroovySystem.java:36)\r\n\tat org.codehaus.groovy.runtime.InvokerHelper.\u003cclinit\u003e(InvokerHelper.java:86)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)\r\n\tat io.restassured.internal.ResponseParserRegistrar.\u003cinit\u003e(ResponseParserRegistrar.groovy)\r\n\tat io.restassured.RestAssured.\u003cclinit\u003e(RestAssured.java:347)\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send a GET request for list of users",
@@ -26,7 +25,7 @@ formatter.match({
   "location": "stepDefinitions.Users.iSendAGETRequestForListOfUsers()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I search user as \"Delphine\"",
@@ -36,7 +35,7 @@ formatter.match({
   "location": "stepDefinitions.Users.iSearchUserAs(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response status should be 200 OK",
@@ -46,7 +45,7 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseStatusShouldBeOK()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response should contain below details",
@@ -62,7 +61,7 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseShouldContainBelowDetails(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send a GET request for user posts",
@@ -72,7 +71,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.iSearchForPostsFromUser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response status should be 200 OK",
@@ -82,7 +81,7 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseStatusShouldBeOK()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response should fetch all the posts from the user",
@@ -92,7 +91,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.theResponseShouldHaveBelowFields()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send GET request from each post to verify email formats",
@@ -102,7 +101,7 @@ formatter.match({
   "location": "stepDefinitions.UsersComments.iFetchCommentsFromEachPostToVerifyEmailFormats()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Send PUT request and verify response",
@@ -115,8 +114,7 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send a PUT request for \"valid\" user post \"81\"",
@@ -132,7 +130,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.iSendAPUTRequestForPostId(java.lang.String,java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response status should be 200 OK",
@@ -142,7 +140,7 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseStatusShouldBeOK()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response of posts values should be updated",
@@ -158,7 +156,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.theResponseOfPostsValuesShouldBeUpdated(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Send POST request and verify response",
@@ -171,8 +169,7 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send a POST request for post \"113\"",
@@ -188,7 +185,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.iSendAPOSTRequestForPost(java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response status should be 404 NOT_FOUND",
@@ -198,7 +195,7 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseStatusShouldBeUnAuthorized()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Send PUT request and verify response as Internal Server Error",
@@ -211,8 +208,7 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I send a PUT request for \"InValid\" user post \"110\"",
@@ -228,7 +224,7 @@ formatter.match({
   "location": "stepDefinitions.UsersPosts.iSendAPUTRequestForPostId(java.lang.String,java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The response status should be 500 INTERNAL SERVER ERROR",
@@ -238,6 +234,6 @@ formatter.match({
   "location": "stepDefinitions.Users.theResponseStatusShouldBeInternalServerError()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

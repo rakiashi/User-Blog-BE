@@ -3,13 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-09T22:06:26.817Z",
+        "start_timestamp": "2020-08-09T22:52:30.418Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache\r\n\tat org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.\u003cclinit\u003e(NumberNumberMetaMethod.java:33)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:111)\r\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:86)\r\n\tat groovy.lang.GroovySystem.\u003cclinit\u003e(GroovySystem.java:36)\r\n\tat org.codehaus.groovy.runtime.InvokerHelper.\u003cclinit\u003e(InvokerHelper.java:86)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)\r\n\tat io.restassured.internal.ResponseParserRegistrar.\u003cinit\u003e(ResponseParserRegistrar.groovy)\r\n\tat io.restassured.RestAssured.\u003cclinit\u003e(RestAssured.java:347)\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "duration": 190135400,
-              "status": "failed"
+              "duration": 1213864000,
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.Hooks.setUp()"
@@ -25,8 +24,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4001200,
-              "status": "skipped"
+              "duration": 4162964600,
+              "status": "passed"
             },
             "line": 7,
             "name": "I send a GET request for list of users",
@@ -37,8 +36,8 @@
           },
           {
             "result": {
-              "duration": 9006700,
-              "status": "skipped"
+              "duration": 1638212600,
+              "status": "passed"
             },
             "line": 8,
             "name": "I search user as \"Delphine\"",
@@ -55,8 +54,8 @@
           },
           {
             "result": {
-              "duration": 1001000,
-              "status": "skipped"
+              "duration": 3002400,
+              "status": "passed"
             },
             "line": 9,
             "name": "The response status should be 200 OK",
@@ -67,8 +66,8 @@
           },
           {
             "result": {
-              "duration": 4002900,
-              "status": "skipped"
+              "duration": 190135300,
+              "status": "passed"
             },
             "line": 10,
             "name": "The response should contain below details",
@@ -105,8 +104,8 @@
           },
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 213150900,
+              "status": "passed"
             },
             "line": 15,
             "name": "I send a GET request for user posts",
@@ -117,8 +116,8 @@
           },
           {
             "result": {
-              "duration": 1002600,
-              "status": "skipped"
+              "duration": 1000400,
+              "status": "passed"
             },
             "line": 16,
             "name": "The response status should be 200 OK",
@@ -129,8 +128,8 @@
           },
           {
             "result": {
-              "duration": 1000400,
-              "status": "skipped"
+              "duration": 36026200,
+              "status": "passed"
             },
             "line": 17,
             "name": "The response should fetch all the posts from the user",
@@ -141,8 +140,8 @@
           },
           {
             "result": {
-              "duration": 1000400,
-              "status": "skipped"
+              "duration": 1868330600,
+              "status": "passed"
             },
             "line": 18,
             "name": "I send GET request from each post to verify email formats",
@@ -159,12 +158,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T22:06:27.228Z",
+        "start_timestamp": "2020-08-09T22:52:40.079Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.Hooks.setUp()"
@@ -180,8 +178,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2003100,
-              "status": "skipped"
+              "duration": 592548700,
+              "status": "passed"
             },
             "line": 22,
             "name": "I send a PUT request for \"valid\" user post \"81\"",
@@ -228,8 +226,8 @@
           },
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 2022500,
+              "status": "passed"
             },
             "line": 27,
             "name": "The response status should be 200 OK",
@@ -240,8 +238,8 @@
           },
           {
             "result": {
-              "duration": 1000400,
-              "status": "skipped"
+              "duration": 89061500,
+              "status": "passed"
             },
             "line": 28,
             "name": "The response of posts values should be updated",
@@ -284,12 +282,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T22:06:27.270Z",
+        "start_timestamp": "2020-08-09T22:52:40.774Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.Hooks.setUp()"
@@ -305,8 +302,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2001400,
-              "status": "skipped"
+              "duration": 412294600,
+              "status": "passed"
             },
             "line": 36,
             "name": "I send a POST request for post \"113\"",
@@ -349,8 +346,8 @@
           },
           {
             "result": {
-              "duration": 1000500,
-              "status": "skipped"
+              "duration": 1002600,
+              "status": "passed"
             },
             "line": 41,
             "name": "The response status should be 404 NOT_FOUND",
@@ -367,12 +364,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-09T22:06:27.291Z",
+        "start_timestamp": "2020-08-09T22:52:41.199Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\r\n\tat stepDefinitions.Hooks.setUp(Hooks.java:12)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.Hooks.setUp()"
@@ -388,8 +384,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2001500,
-              "status": "skipped"
+              "duration": 611400500,
+              "status": "passed"
             },
             "line": 45,
             "name": "I send a PUT request for \"InValid\" user post \"110\"",
@@ -436,8 +432,8 @@
           },
           {
             "result": {
-              "duration": 1001000,
-              "status": "skipped"
+              "duration": 2002500,
+              "status": "passed"
             },
             "line": 50,
             "name": "The response status should be 500 INTERNAL SERVER ERROR",
