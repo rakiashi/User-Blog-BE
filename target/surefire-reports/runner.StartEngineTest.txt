@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.StartEngineTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.243 s <<< FAILURE! - in runner.StartEngineTest
+Verifying email formats from each comments of user posts(Verify Email formats from comments of each user posts)  Time elapsed: 0.623 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+
+Send PUT request and verify response(Verify Email formats from comments of each user posts)  Time elapsed: 0.187 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Send POST request and verify response(Verify Email formats from comments of each user posts)  Time elapsed: 0.061 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Send PUT request and verify response as Internal Server Error(Verify Email formats from comments of each user posts)  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
