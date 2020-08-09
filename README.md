@@ -26,9 +26,11 @@ This Framework capable of future enhancement on UI automation along with API tes
 **Running command**
 mvn clean compile test
 
-**Reporting**
+**CT and Reporting**
 
 In this project I have used cucumber reports , which gives more info on each steps by taking screenshots : you can get in this path : \target\site\cucumber-pretty
+
+Circle CI configuration : https://app.circleci.com/pipelines/github/rakiashi/User-Blog-BE
 
 **Observations**
 
